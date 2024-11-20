@@ -1,0 +1,264 @@
+/* navbar section start */
+@media(max-width:991px) {
+    .navbar {
+        display: block;
+    }
+    .credit_content p{
+        max-width: 417px;
+    }
+}
+
+/* navbar section end */
+
+
+
+/* banner section start */
+@media(max-width:991px) {
+    .sidebar {
+        display: none !important;
+    }
+}
+
+@media(max-width:576px) {
+    .banner-info {
+        top: 50%;
+        left: 50%;
+        width: 100%;
+    }
+
+    .banner-info h2 {
+        font-size: 22px;
+        width: 100%;
+    }
+
+    .banner-info p {
+        font-size: 16px;
+    }
+
+    .banner-sertion .banner-img img {
+        height: 450px;
+    }
+}
+
+@media(max-width:991px) {
+    .banner-info {
+        top: 50%;
+        left: 50%;
+        width: 100%;
+    }
+}
+
+@media(max-width:991px) {
+    .banner-top-info h5 {
+        font-size: 18px;
+    }
+}
+
+@media(max-width:576px) {
+    .banner-sertion .owl-dots {
+        display: none;
+    }
+}
+
+@media(max-width:991px) {
+    .banner-top-info h5 {
+        font-size: 18px;
+    }
+}
+
+
+/* banner section end */
+
+
+/* about section start */
+@media(max-width:991px) {
+    .about-section .about-section-info h2 {
+        font-size: 25px;
+    }
+
+    .about-section .about-section-info h5 {
+        font-size: 18px;
+    }
+
+    .about-section .about-section-info p {
+        font-size: 15px;
+    }
+}
+
+@media(max-width:576px) {
+    .about-section .about-section-info h2 {
+        font-size: 20px;
+    }
+
+    .about-section .about-section-info h5 {
+        font-size: 18px;
+    }
+
+    .about-section .about-section-info p {
+        font-size: 15px;
+    }
+
+    .about-section .about-img img {
+        height: 300px;
+    }
+}
+
+@media(max-width:576px) {
+    .location-main .location span {
+        width: 40px !important;
+        height: 40px !important;
+    }
+
+    .location-main .location span i {
+        font-size: 18px;
+    }
+
+    .location-main .location h5 {
+        font-size: 16px;
+    }
+
+    .location-box img {
+        width: 100px;
+    }
+}
+
+/* about section end */
+
+/* .services-section start */
+
+@media (max-width: 576px) {
+    .services-section .services-section-bg img {
+        height: 750px;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .services-section .services-section-tittle h2::before,
+    .services-section .services-section-tittle h2::after {
+        width: 30%;
+    }
+}
+
+@media (max-width: 576px) {
+    .services-section-info {
+        position: absolute;
+        top: 4%;
+        width: 100%;
+        z-index: 2;
+        left: 0;
+        padding: 10px;
+
+    }
+}
+
+@media (max-width: 576px) {
+    .services-section .owl-nav {
+        display: none;
+    }
+}
+
+@media (max-width: 991px) {
+    .services-section .owl-nav {
+        width: 25%;
+    }
+
+    .services-section .services-section-bg img {
+        height: 620px;
+    }
+}
+
+@media (max-width: 576px) {
+    .services-section .services-section-bg img {
+        height: 680px;
+    }
+}
+
+@media (max-width: 499px) {
+    .services-section .services-section-bg img {
+        height: 740px;
+    }
+}
+
+/* .services-section end */
+
+
+
+/* credits-section start */
+@media (max-width: 576px) {
+
+    .credits-section .credits-section-tittle h2::before,
+    .credits-section .credits-section-tittle h2::after {
+        width: 30%;
+    }
+}
+
+/* credits-section end */
+
+
+/* alongside-section start */
+
+@media (max-width: 576px) {
+    .alongside-section .alongside-section-bg img {
+        height: 450px;
+    }
+    .credit_content p{
+        max-width: 100%;
+    }
+    .credits-carousel .owl-nav{
+        top: 80%;
+        transform: translate(-50%, 36%);
+    }
+    .credits-section .credits-cards-img img{
+        height: 300px;
+    }
+    .credit_content {
+        top: 66%;
+    }
+    .credits-carousel .owl-nav{
+        top: 91%;
+    }
+}
+
+@media (max-width: 991px) {
+
+    .alongside-section-info h4::before,
+    .alongside-section-info h4::after {
+        display: none;
+    }
+}
+
+
+@media (max-width: 991px) {
+    .alongside-section .owl-nav {
+        display: none;
+    }
+}
+
+@media (max-width: 1200px) {
+    .alongside-section .owl-nav::before {
+        left: -217%;
+    }
+}
+
+
+@media (max-width: 991px) {
+    .alongside-section .owl-nav::before {
+        display: none;
+    }
+
+    .alongside-section .owl-nav::after {
+        display: none;
+    }
+}
+
+
+
+@media only screen and (min-width: 991px) and (max-width: 1200px){
+    .credit_content p{
+        max-width: 590px;
+    }
+}
+
+
+/* alongside-section end */

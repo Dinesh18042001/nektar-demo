@@ -12,6 +12,9 @@
 a {
     text-decoration: none;
 }
+p{
+    margin: 0;
+}
 
 :root {
     --primary-font: "Orbitron", sans-serif;
@@ -1108,6 +1111,7 @@ html {
     display: block;
     border-radius: 10px;
     height: 380px;
+    object-fit: cover;
   }
   
   .credits-card .hover-text {
@@ -1146,3 +1150,86 @@ html {
     font-size: 15px;
   }
 /* credits page end */
+
+
+/* aboutus page start */
+
+.about-info-section .about-info-img {
+    display: flex; 
+    justify-content: center; 
+  }
+  
+  .about-info-section .about-info-img img {
+    width: 70%;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    border: 5px solid #DAE6F4;
+    height: 300px;
+    object-fit: cover;
+  }
+
+.about-info-section .aboutpage-info p{
+    font-weight: 500px;
+    font-size: 18px;
+    font-family: var(--secondary-font);
+} 
+
+/* aboutus page end */
+
+
+/* service page start */
+/* main-services-info section start  */
+.main-services-info .main-service img{
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 5px solid #DAE6F4;
+}
+
+@media(max-width:991px) {
+    .main-services-info .main-service img{
+        height: 350px;
+    }
+}
+.main-services-info .secvice-info-tittle h4{
+    font-weight: 500;
+    font-size: 20px;
+}
+.main-services-info .secvice-info-tittle{
+    font-weight: 400;
+    font-size: 16px;
+    font-family: var(--secondary-font);
+}
+
+.main-services-info .main-services-info-base p{
+    font-weight: 500;
+    font-size: 20px;
+    font-family: var(--secondary-font);
+}
+.main-services-info .main-services-info-base ul li{
+    font-family: var(--secondary-font);
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/* main-services-info section end  */
+
+.main-services-info-base2 h4{
+    font-weight: 500;
+    font-size: 17px;
+    font-family: var(--secondary-font);
+}
+.main-services-info-base2 p{
+    font-weight: 400;
+    font-family: var(--secondary-font);
+}
+.main-services-info-base2 ul li{
+    font-weight: 400;
+    font-family: var(--secondary-font);
+}
+.main-services-info-base2 h5{
+    font-weight: 500px;
+    font-size: 18px;
+    font-family: var(--secondary-font);
+}

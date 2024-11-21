@@ -262,3 +262,13 @@
 
 
 /* alongside-section end */
+
+
+/* about page start */
+
+@media(max-width:991px) {
+    .about-info-section .about-info-img img {
+        width: 100%;
+    }
+}
+/* about page end */

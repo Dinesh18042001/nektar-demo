@@ -272,3 +272,15 @@
     }
 }
 /* about page end */
+
+@media(min-width:991px){
+    .sidebar{
+        height: 100vh !important;
+    }
+    .banner-sertion .banner-img img{
+        height: 100vh !important;
+    }
+    .about-banner-sertion .about-banner-main .banner-img img{
+        height: 100vh !important;
+    }
+}
